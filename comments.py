@@ -1,5 +1,0 @@
-#Comments
-
-'''
-write this nonsense
-'''
