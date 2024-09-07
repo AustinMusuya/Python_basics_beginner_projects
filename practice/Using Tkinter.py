@@ -1,10 +1,11 @@
 from tkinter import Tk, Canvas
 from datetime import date, datetime
 
+file_name = './ImportantDates.txt'
 
 def get_events():
     list_events = []
-    with open('Important Dates') as file:
+    with open(file_name) as file:
         for line in file:
             line = line.rstrip('\n')
             current_event = line.split(',')
